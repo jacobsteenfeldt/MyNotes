@@ -13,6 +13,16 @@ variablesPages.Add(variablesPageTwo);
 variablesChapter.Pages = variablesPages;
 book.Chapters = chapters;
 
+Chapter variablesChapter2 = new Chapter("Data types");
+chapters.Add(variablesChapter2);
+
+List<Page> pages = new List<Page>();
+Page variablespagethree = new Page(MyNotes.VariablesPageThree);
+pages.Add(variablespagethree);
+
+variablesChapter2.Pages = variablesPages;
+book.Chapters = chapters;
+
 book.Start();
 
 
